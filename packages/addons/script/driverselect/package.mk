@@ -3,8 +3,8 @@
 # Copyright (C) 2020-present Team CoreELEC (https://coreelec.org)
 
 PKG_NAME="driverselect"
-PKG_VERSION="17d69cfa9781b9f987428cccd22a240bec4ebf9b"
-PKG_SHA256="fd9e73b5618b52be9e95a7c2392ac49544a7d153e418c515dcff9915aaee7e2c"
+PKG_VERSION="6a5dc7385b19428eddba93bc051f3b829cfd994b"
+PKG_SHA256="36d2c98cd253f2a80d76c88d13dd8002a4f9f4027aa9f7ad345ab19e8745d488"
 PKG_REV="100"
 PKG_ARCH="any"
 PKG_LICENSE="OSS"
