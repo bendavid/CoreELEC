@@ -17,15 +17,15 @@ PKG_PATCH_DIRS="$LINUX"
 
 case "$LINUX" in
   amlogic-4.9)
-    PKG_VERSION="80fd7b9f6c0d9fc0efe5a142203cf3820def2f24"
-    PKG_SHA256="7e9dfa453f82d3ac133bed2193bcfd3023488d63823096aae11d585118e7dfec"
-    PKG_URL="https://github.com/CoreELEC/linux-amlogic/archive/$PKG_VERSION.tar.gz"
+    PKG_VERSION="1a25069e4ea01a9d212d32035966dd033914a3e4"
+    PKG_SHA256="8f58e70b37ec1317787c60ccaa810e47d32e192feaf221401cc22e984bc9b258"
+    PKG_URL="https://github.com/bendavid/linux-amlogic/archive/$PKG_VERSION.tar.gz"
     PKG_SOURCE_NAME="linux-$LINUX-$PKG_VERSION.tar.gz"
     PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET aml-dtbtools:host"
     PKG_DEPENDS_UNPACK="media_modules-aml"
     PKG_NEED_UNPACK="$PKG_NEED_UNPACK $(get_pkg_directory media_modules-aml)"
     PKG_BUILD_PERF="no"
-    PKG_GIT_BRANCH="amlogic-4.9-19"
+    PKG_GIT_BRANCH="amlogic-4.9-19_outputsel"
     ;;
 esac
 
